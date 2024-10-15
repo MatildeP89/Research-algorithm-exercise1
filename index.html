@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+        </style>
+        
+    <title>Job search exercise</title>
+</head>
+<body>
+    <main> 
+<h2> What kind of job are you looking for?</h2>
+    <input id="jobInput" class="input" type="text" placeholder="Insert your ideal job here...">
+<h2>...and where?</h2>
+    <input id="areaInput" class="input" type="text" placeholder="Insert the area you would like to work at...">
+
+    <button onclick="onClickJobSearch()"> Find me a job! </button>
+
+    <h3 id="resultsTitle">  </h3>
+
+    <div id="ulDiv"> 
+        <ul id="ul"> </ul>
+    </div>
+</main>
+
+    <script src="script.js"> </script>
+    <script src="https://cdn.jsdelivr.net/emojione/2.2.7/lib/js/emojione.min.js"></script>
+    
+</body>
+</html>
